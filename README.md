@@ -7,10 +7,13 @@ UWP App
 
 After cloning please create your own config.json file with the following format.
 
+```json
 {
-  "IoTHub": {
+  "IoTHub": 
+  {
     "Hostname": "<Hostname>",
     "DeviceId": "<DeviceId>",
     "SharedAccessKey": "<SharedAccessKey>"
   }
 }
+```
